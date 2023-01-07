@@ -4,13 +4,6 @@
     justify-content: center;
 }
 
-img {
-    width: 450px;
-    height: 450px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
-
 h3 {
     font-family: 'Space Mono', monospace;
     font-size: 3em;
@@ -20,4 +13,17 @@ h3 {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+img {
+    border-radius: 25px;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: all 0.6s;
+}
+
+img:hover {  
+    transform: scale(1.1);
 }
