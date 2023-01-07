@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
