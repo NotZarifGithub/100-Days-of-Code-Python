@@ -2,9 +2,9 @@
 
 // 1. Create an object that has properties "username" and "password". Fill those values in with strings.
 
-{
+let obj = {
     username: "zarif",
-    password: "123"
+    password: "123",
 
 };
 
